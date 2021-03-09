@@ -3,15 +3,19 @@
 
 ### 示例 1：
 
+```
 输入："Mr John Smith    ", 13
 输出："Mr%20John%20Smith"
+```
 
 ### 示例 2：
+```
 输入："               ", 5
 输出："%20%20%20%20%20"
- 
+```
+ 
 ### 提示：
-字符串长度在 [0, 500000] 范围内。
+`字符串长度在 [0, 500000] 范围内。`
 
 
 ```c++
@@ -51,10 +55,11 @@ public:
 
 ![image](https://user-images.githubusercontent.com/60544624/110429132-6c6ed100-80e5-11eb-9bd4-31ee64876e48.png)
 
+```
 输入：s = "codeleet", indices = [4,5,6,7,0,2,1,3]
 输出："leetcode"
 解释：如图所示，"codeleet" 重新排列后变为 "leetcode" 。
-
+```
 
 ```c++
 class Solution {
